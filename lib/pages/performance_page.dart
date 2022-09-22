@@ -65,6 +65,7 @@ class _PerformancePageState extends State<PerformancePage> {
                       widthFactor: getfact(performance![index].changePercent),
                       child: Container(
                         decoration: BoxDecoration(
+                          color: Colors.green,
                           borderRadius: BorderRadius.circular(10),
                         ),
                       ),
